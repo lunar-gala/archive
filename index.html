@@ -20,11 +20,15 @@
 
             <div class = "entry">
                 <p>2025</p>
-                <p>
-                    <a href="#" title="Coming soon" onclick="return false;">
-                      Elysium
-                    </a>
-                </p>
+
+                
+                    <p>
+                        <span class="tooltip-wrapper" id="elysium">
+                            <a href="#">Elysium</a>
+                        </span>
+                    </p>
+                    
+                <div id="tooltip" class="tooltip">Coming soon</div>
                 
                 <div class = "cds">
                     <p>Leslie Lin, Ray Ka</p>
@@ -54,6 +58,24 @@
             </div>
             
         </div>
+        <script>
+            const elysium = document.getElementById('elysium');
+            const tooltip = document.getElementById('tooltip');
+          
+            elysium.addEventListener('mouseenter', () => {
+              tooltip.style.opacity = 1;
+            });
+          
+            elysium.addEventListener('mouseleave', () => {
+              tooltip.style.opacity = 0;
+            });
+          
+            elysium.addEventListener('mousemove', (e) => {
+              tooltip.style.left = `${e.clientX + 10}px`;
+              tooltip.style.top = `${e.clientY + 10}px`;
+            });
+          </script>
+          
     </body>
 
 </html>
