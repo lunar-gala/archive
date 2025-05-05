@@ -1,7 +1,6 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'DIN', sans-serif;
 }
 
 a { 
@@ -10,14 +9,14 @@ a {
 
 p {
     font-family: 'droid sans mono', sans-serif;
-
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h1 {
+    font-family: 'droid sans mono', sans-serif;
     font-weight: 300;
-    font-family: "helvetica", sans-serif;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -35,14 +34,25 @@ h1 {
     text-align: right;
 }
 
-.footer {
+.logo {
     display: flex;
     justify-content: center; /* horizontally center */
     align-items: center;     /* vertically center (optional) */
-    margin-top: 40px;        /* optional spacing from above content */
+    margin-bottom: 40px;       
 }
 
-.footer img {
+.logo img {
     width: 60px; 
     height: auto; 
 }
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    p {
+        font-size: 12px;
+    }
+    .content {
+        padding: 20vh 5vw ;
+    }
+  }
+  
