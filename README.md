@@ -47,7 +47,7 @@ git add filename.html
 
 ## 4. Commit the Changes
 ```bash
-git commit -m "Added new image entry to the archive"
+git commit -m "Added new entry to the archive index"
 ```
 
 ## 5. Push to GitHub
