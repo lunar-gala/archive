@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+}
+
+.content {
+    padding: 20vh 30vw ;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cds {
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;     /* vertically center (optional) */
+    margin-top: 40px;        /* optional spacing from above content */
+}
+
+.footer img {
+    width: 60px; 
+    height: auto; 
+}
