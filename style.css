@@ -1,17 +1,22 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'DIN', sans-serif;
 }
 
-a {
+a { 
+    font-weight: 300;
     color: white;
 }
 
 p {
+    font-weight: 300;
     font-size: 16px;
 }
+
 h1 {
+    font-weight: 300;
+    font-family: 'DIN', sans-serif;
     text-align: center;
 }
 
