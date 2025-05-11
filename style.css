@@ -7,16 +7,13 @@ a {
     color: white;
 }
 
-p, h2 {
+p, h1 {
     font-family: 'droid sans mono', monospace;
     font-weight: 300;
     font-size: 14px;
 }
 
 h1 {
-    font-family: 'droid sans mono', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
     text-align: center;
 }
 
