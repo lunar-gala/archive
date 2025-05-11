@@ -7,7 +7,7 @@ a {
     color: white;
 }
 
-p {
+p, h2 {
     font-family: 'droid sans mono', monospace;
     font-weight: 300;
     font-size: 14px;
