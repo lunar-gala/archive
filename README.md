@@ -15,6 +15,22 @@ Inside the `<div class="content">` under the header, insert a new entry with the
 	</div>
 </div>
 ```
+To make a "Coming Soon" message show on link hover, follow this format.
+```html
+
+            <div class = "entry">
+                <p>YEAR</p>
+                <p>
+                    <span class="tooltip-wrapper" id="elysium">
+                        <a href="#">THEME</a>
+                    </span>
+                </p>
+                <div id="tooltip" class="tooltip">Coming soon</div>
+                <div class = "cds">
+                    <p>NAME OF CDS</p>
+                </div>
+            </div>
+```
 
 ## 3. Save the File
 - Ensure all edits are saved before proceeding to the next step.
